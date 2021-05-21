@@ -20,10 +20,10 @@
     		</button>
     	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       		<div class="navbar-nav">
-        		<a class="nav-link active text-white" aria-current="page" href="http://localhost:5000/">Blibiografia</a>
-        		<a class="nav-link text-white" href="http://localhost:5000/isc">Ingenieria Sistemas Computacionales</a>
-        		<a class="nav-link text-white" href="http://localhost:5000/motos">Motociclismo</a>
-            <a class="nav-link text-white" href="http://localhost:5000/tatuajes">Tatuajes</a>
+        		<a class="nav-link active" aria-current="page" href="{{ url_for('url_principal')}}">Blibiografia</a>
+            <a class="nav-link" href="{{ url_for('isc')}}">Ingenieria Sistemas Computacionales</a>
+            <a class="nav-link" href="{{ url_for('motos')}}">Motociclismo</a>
+             <a class="nav-link" href="{{ url_for('tatuajes')}}">Tatuajes</a>
       		</div>
     	</div>
   		</div>
