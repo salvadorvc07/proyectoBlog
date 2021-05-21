@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+	<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+	<title>Bibliografía</title>
+</head>
+<body>
+
+<div>
+	<nav class="navbar navbar-expand-lg navbar-light" style="background-color:   #3498db ;">
+  		<div class="container-fluid">
+    		<a class="navbar-brand">Salvador:</a>
+    		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      			<span class="navbar-toggler-icon"></span>
+    		</button>
+    	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      		<div class="navbar-nav">
+        		<a class="nav-link active" aria-current="page" href="http://localhost:5000/">Blibiografia</a>
+        		<a class="nav-link" href="http://localhost:5000/isc">Ingenieria Sistemas Computacionales</a>
+        		<a class="nav-link" href="http://localhost:5000/motos">Motociclismo</a>
+             <a class="nav-link" href="http://localhost:5000/tatuajes">Tatuajes</a>
+      		</div>
+    	</div>
+  		</div>
+	</nav>
+<div class="container-md">
+      <h1 class="alert alert-primary" role="alert">Bibliografia</h1>
+    </div>
+</div><br>
+
+<div class="text-center">
+  <img src="{{url_for('static', filename='img/perfil.jpg')}}" width="300" height="300">
+</div><br>
+
+<div>
+	<center>
+	<font face="Product Sans,arial,verdana" size="5" >
+		<p class="text-break">Mi nombre es {{ nombre }}, actualmente estudio Ingenieria en Sistemas Computacionales  en el  Instituto Tecnologico Superior de Guanajuato y cuento con las siguientes certificaciones:
+		</p>
+		<ul class="b">
+		<li>Certificación Profesional en Seguridad y Ciberseguridad: ISO 27001, Cibersecurity Manager”-CPSC-CIMAT.</li>
+		<li>Certificación en Desarrollo de Apps Móviles (40 h) por Google Actívate.</li>
+		<li>Certificación en Estrategias de búsquedas efectivas y operadores Booleanos TecNM.</li>
+		<li>Certificación Entrepreneurship de Cisco Networking Academy®.</li>
+	</ul>
+	</font>
+	</center>
+</div>
+</body>
+
+<footer class="bg-light text-center text-lg-start">
+  <div class="text-center p-3" style="background-color: #3498db;">
+    © 2021 Derechos reservados:
+    <a class="text-dark">Salvador</a>
+  </div>
+</footer>
+</center>
+</html>
